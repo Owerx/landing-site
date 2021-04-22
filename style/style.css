@@ -101,3 +101,6 @@ header {
     padding: 25px 50px;
     transition: 0.8s;
   }
+.welcome-inner button a{
+    color: white;
+}
