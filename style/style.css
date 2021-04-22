@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #2e2e2e;
     background-size: contain;
     font-family: "Montserrat", "Open Sans", sans-serif;
 }
@@ -58,6 +59,7 @@ header {
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
+    clip-path: polygon(100% 0%, 100% 85%, 50% 100%, 0 85%  , 0% 0%);
   }
 
   .welcome-inner {
