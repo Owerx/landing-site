@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+}
+  
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* display: inline-block; */
+}
+  
+a {
+    text-decoration: none;
+}
+  
+header {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #393737;
+}
+  
+.header-links {
+    padding: 15px 0;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.header-links a {
+    color: white;
+    margin-left: 16px;
+}
+.header-links a:hover {
+    border-bottom: solid 1px white;
+    color: white;
+    margin-left: 16px;
+}
+.header-links img{
+
+      height: 70px;
+}
+.welcome {
+    position: relative;
+    /* overflow: hidden; */
+    background-image: url(../img/welcome-bg.png);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .welcome-inner {
+    border-radius: 500px;
+    backdrop-filter: blur(0.5px);
+    padding: 200px 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+  }
+  .welcome-inner h1 {
+    /* margin: auto;
+      width: 50%;
+      backdrop-filter: blur(10px); */
+    /* color: white; */
+    font-weight: 800;
+    font-size: 48;
+    line-height: 40px;
+    color: white;
+  }
+  
+  .welcome-inner h5 {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: white;
+  }
+  
+  .welcome-inner button {
+    padding: 20px 36px;
+    border: none;
+    border-radius: 100px;
+    background-color: #4985ff;
+    color: white;
+    font-size: 24px;
+  }
+  #welcome-button a {
+    text-decoration: none;
+    color: white;
+  }
+  #welcome-button:hover {
+    font-size: 30px;
+    padding: 25px 50px;
+    transition: 0.8s;
+  }
