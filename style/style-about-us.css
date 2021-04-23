@@ -34,6 +34,12 @@
     padding: 32px;
     max-width: 600px;
 }
+.content .button a{
+    color: black;
+}
+.social a{
+    color: black;
+}
 .image-section {
     max-height: 700px;
 }
