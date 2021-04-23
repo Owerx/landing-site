@@ -1,4 +1,20 @@
 .about-us{
-    background-color: white;
-    padding: 100px 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.about-us-inner{
+    overflow: auto;
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.about-us-text{
+    max-width: 600px;
+}
+.image-section{
+    object-fit: cover;
+    height: 600px;
+    width: 400px;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800;900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@ body {
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+   font-family: 'Bitter', serif;;
 }
   
 .container {
@@ -75,7 +78,7 @@ header {
       width: 50%;
       backdrop-filter: blur(10px); */
     /* color: white; */
-    font-weight: 800;
+    font-weight: 700;
     font-size: 48;
     line-height: 40px;
     color: white;
