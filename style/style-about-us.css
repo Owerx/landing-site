@@ -1,20 +1,27 @@
 .about-us{
+    
     width: 100%;
     min-height: 100vh;
 }
 
 .about-us-inner{
+    border-radius: 100px;
     overflow: auto;
+    opacity: 1;
     background-color: #ddd;
     display: flex;
     flex-wrap: wrap;
     
 }
 .about-us-text{
+    padding: 32px;
     max-width: 600px;
 }
-.image-section{
+.image-section {
+    max-height: 700px;
+}
+.image-section img{
     object-fit: cover;
-    height: 600px;
-    width: 400px;
+    max-height: 100%;
+    width: 500px;
 }
