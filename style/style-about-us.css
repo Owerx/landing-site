@@ -5,14 +5,31 @@
 }
 
 .about-us-inner{
+    box-shadow: -1px -3px 15px 5px rgb(255, 255, 255,1);
     border-radius: 100px;
     overflow: auto;
     opacity: 1;
     background-color: #ddd;
     display: flex;
     flex-wrap: wrap;
-    
+    border: 0.px solid black;
+    animation: shadowmagic 3s infinite;
 }
+
+@keyframes shadowmagic {
+   0% {box-shadow: -1px -3px 0px 5px rgb(255, 255, 255,1);}
+   10%{box-shadow: -1px -3px 2px 5px rgb(255, 255, 255,1);}
+   20%{box-shadow: -1px -3px 4px 5px rgb(255, 255, 255,1);}
+   30%{box-shadow: -1px -3px 6px 5px rgb(255, 255, 255,1);}
+   40%{box-shadow: -1px -3px 8px 5px rgb(255, 255, 255,1);}
+   50%{box-shadow: -1px -3px 10px 5px rgb(255, 255, 255,1);}
+   60%{box-shadow: -1px -3px 8px 5px rgb(255, 255, 255,1);}
+   70%{box-shadow: -1px -3px 6px 5px rgb(255, 255, 255,1);}
+   80%{box-shadow: -1px -3px 4px 5px rgb(255, 255, 255,1);}
+   90%{box-shadow: -1px -3px 2px 5px rgb(255, 255, 255,1);}
+   100% {box-shadow: -1px -3px 0px 5px rgb(255, 255, 255,1);;}
+}
+
 .about-us-text{
     padding: 32px;
     max-width: 600px;
