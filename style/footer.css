@@ -1,0 +1,80 @@
+.bg{
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+footer{
+    
+    background-image: url(../img/footer-bg.jpg);
+    
+    color: #ddd;
+    
+    width: 100%;
+    height: auto;
+}
+footer a{
+    color: #ddd;
+}
+footer img{
+    height: 400px;
+}
+.anime-list ul,
+.anime-list li {
+  
+    padding: 0;
+    list-style-type: none;
+}
+.anime-list li {
+    width: 1200px;
+  position: relative;
+  display: inline-block;
+}
+.anime-list img {
+    border-radius: 50px;
+  max-width: 100%;
+  display: block;
+}
+.descr {
+    display: flex;
+    justify-content: space-evenly;
+  position: absolute;
+ border-radius: 50px;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  
+  opacity: 1;
+}
+
+.footer-box{
+    display: flex;
+align-items: baseline;
+justify-content: space-between
+}
+.footer-links .fab{
+   font-size: 30px;
+}
+
+.descr-item{
+    padding-top: 100px;
+    max-height: 200px;
+    max-width: 100px;
+}
+.descr .descr-item ul,.descr .descr-item li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.descr .descr-item li{
+    letter-spacing: 0.9px;
+    font-stretch: 100;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 100px;
+}
+.descr .descr-item ul{
+    max-width: 100px;
+}

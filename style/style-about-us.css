@@ -12,12 +12,14 @@
     background-color: #ddd;
     display: flex;
     flex-wrap: wrap;
-    border: 0.px solid black;
+    
     animation: shadowmagic 2s infinite;
 }
-
+.social .fab{
+    padding-top: 10px;
+}
 @keyframes shadowmagic {
-   0% {box-shadow: -1px -3px 0px 5px #699C7B;}
+   0% {box-shadow: -1px -3px 0.5px 5px #699C7B;}
    5% {box-shadow: -1px -3px 1px 5px #699C7B;}
    10%{box-shadow: -1px -3px 2px 5px #699C7B;}
    15%{box-shadow: -1px -3px 3px 5px #699C7B;}
@@ -37,7 +39,7 @@
    85%{box-shadow: -1px -3px 3px 5px #699C7B;}
    90%{box-shadow: -1px -3px 2px 5px #699C7B;}
    95%{box-shadow: -1px -3px 1px 5px #699C7B;}
-   100% {box-shadow: -1px -3px 0px 5px #699C7B;}
+   100% {box-shadow: -1px -3px 0.5px 5px #699C7B;}
 }
 
 .about-us-text{
