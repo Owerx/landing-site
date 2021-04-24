@@ -5,7 +5,7 @@
 }
 
 .about-us-inner{
-    box-shadow: -1px -3px 15px 5px rgb(255, 255, 255,1);
+   
     border-radius: 100px;
     overflow: auto;
     opacity: 1;
@@ -17,27 +17,27 @@
 }
 
 @keyframes shadowmagic {
-   0% {box-shadow: -1px -3px 0px 5px rgb(255, 255, 255,1);}
-   5% {box-shadow: -1px -3px 1px 5px rgb(255, 255, 255,1);}
-   10%{box-shadow: -1px -3px 2px 5px rgb(255, 255, 255,1);}
-   15%{box-shadow: -1px -3px 3px 5px rgb(255, 255, 255,1);}
-   20%{box-shadow: -1px -3px 4px 5px rgb(255, 255, 255,1);}
-   25%{box-shadow: -1px -3px 5px 5px rgb(255, 255, 255,1);}
-   30%{box-shadow: -1px -3px 6px 5px rgb(255, 255, 255,1);}
-   35%{box-shadow: -1px -3px 7px 5px rgb(255, 255, 255,1);}
-   40%{box-shadow: -1px -3px 8px 5px rgb(255, 255, 255,1);}
-   45%{box-shadow: -1px -3px 9px 5px rgb(255, 255, 255,1);}
-   50%{box-shadow: -1px -3px 10px 5px rgb(255, 255, 255,1);}
-   55%{box-shadow: -1px -3px 9px 5px rgb(255, 255, 255,1);}
-   60%{box-shadow: -1px -3px 8px 5px rgb(255, 255, 255,1);}
-   65%{box-shadow: -1px -3px 7px 5px rgb(255, 255, 255,1);}
-   70%{box-shadow: -1px -3px 6px 5px rgb(255, 255, 255,1);}
-   75%{box-shadow: -1px -3px 5px 5px rgb(255, 255, 255,1);}
-   80%{box-shadow: -1px -3px 4px 5px rgb(255, 255, 255,1);}
-   85%{box-shadow: -1px -3px 3px 5px rgb(255, 255, 255,1);}
-   90%{box-shadow: -1px -3px 2px 5px rgb(255, 255, 255,1);}
-   95%{box-shadow: -1px -3px 1px 5px rgb(255, 255, 255,1);}
-   100% {box-shadow: -1px -3px 0px 5px rgb(255, 255, 255,1);;}
+   0% {box-shadow: -1px -3px 0px 5px #699C7B;}
+   5% {box-shadow: -1px -3px 1px 5px #699C7B;}
+   10%{box-shadow: -1px -3px 2px 5px #699C7B;}
+   15%{box-shadow: -1px -3px 3px 5px #699C7B;}
+   20%{box-shadow: -1px -3px 4px 5px #699C7B;}
+   25%{box-shadow: -1px -3px 5px 5px #699C7B;}
+   30%{box-shadow: -1px -3px 6px 5px #699C7B;}
+   35%{box-shadow: -1px -3px 7px 5px #699C7B;}
+   40%{box-shadow: -1px -3px 8px 5px #699C7B;}
+   45%{box-shadow: -1px -3px 9px 5px #699C7B;}
+   50%{box-shadow: -1px -3px 10px 5px #699C7B;}
+   55%{box-shadow: -1px -3px 9px 5px #699C7B;}
+   60%{box-shadow: -1px -3px 8px 5px #699C7B;}
+   65%{box-shadow: -1px -3px 7px 5px #699C7B;}
+   70%{box-shadow: -1px -3px 6px 5px #699C7B;}
+   75%{box-shadow: -1px -3px 5px 5px #699C7B;}
+   80%{box-shadow: -1px -3px 4px 5px #699C7B;}
+   85%{box-shadow: -1px -3px 3px 5px #699C7B;}
+   90%{box-shadow: -1px -3px 2px 5px #699C7B;}
+   95%{box-shadow: -1px -3px 1px 5px #699C7B;}
+   100% {box-shadow: -1px -3px 0px 5px #699C7B;}
 }
 
 .about-us-text{
